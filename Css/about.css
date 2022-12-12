@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.head{
+    background: linear-gradient(0deg, rgba(40, 17, 61, 0.99),rgba(37, 18, 207, 0.5)), url("..//Images/me-eyeglass.png");
+    background-position: center;
+    background-size: cover;
+}
+.fa-angle-double-up{
+    font-weight: 500;
+    font-size: 28px;
+    color: black;
+    float: right;
+}
+.cont{
+    background: linear-gradient(0deg, rgba(40, 17, 61, 0.99),rgba(37, 18, 207, 0.5)), url("..//Images/me-eyeglass.png");
+    background-position: center;
+    background-size: cover;
+    margin-left: -12px;
+    margin-right: -12px;
+    height: 150px;
+    max-width: 1544px;
+}
+.about h1{
+    font-size: 58px;
+    font-weight: 600;
+    color:darkgreen;
+}
+
+
+
+@media (max-width: 705px){
+    .boook{
+        margin-left: 2em;
+    }
+    .nav-link{
+        font-size: 10px;
+    }
+    .images{
+        width: auto;
+        height: auto;
+    }
+    /* #fixed{
+        width: 50px;
+    } */
+}
+@media (max-width:505px){
+    .images{
+        width: auto;
+        height: auto;
+        margin-left: 40px;
+        text-align: center;
+    }
+    #about-h1{
+        font-size: 38px;
+        font-weight: 500;
+        color: black;
+    }
+    .arrow{
+        display:none;
+    }
+}
