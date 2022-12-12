@@ -4,6 +4,7 @@
     text-decoration:none;
     list-style: none;
     box-sizing: border-box;
+     font-family: sans-serif;
 }
 .header{
     background: linear-gradient(0deg, rgba(40, 17, 61, 0.99),rgba(37, 18, 207, 0.5)), url("..//Images/me-eyeglass.png");
@@ -183,21 +184,27 @@
 @keyframes Jerry{
     0%{
       transform: scale(1);
+      color: green;
     }
     15%{
       transform: scale(1.25);
+      color: white;
     }
     25%{
       transform: scale(1.15);
+      color: darkorange;
     }
     35%{
       transform: scale(1.25);
+      color: darkgoldenrod;
     }
     50%{
       transform: scale(2);
+      color: darkkhaki;
     }
     100%{
       transform: scale(1);
+      color: darkorange;
     }
    }
 
