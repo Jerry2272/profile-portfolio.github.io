@@ -44,7 +44,13 @@ input type{
 
 
 
-
+@media (max-width: 405px){
+     #eye{
+       display: flex;
+         align-items: center;
+         justify-content: center;
+      }
+  }
 
 @media (max-width: 705px){
     .signup{
